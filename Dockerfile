@@ -14,3 +14,4 @@ RUN chmod +x /usr/local/bin/install-php-extensions && sync && \
     zip \
     pdo_oci \
     @composer
+ 
