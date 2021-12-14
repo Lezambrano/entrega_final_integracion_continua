@@ -12,7 +12,7 @@
         $error_conexion = ['error' => false,
                         'msj' => 'error de conexion'
                             ];
-        die(json_encode($error_conexion));
+        die(json_encode($error_conexion)); 
     }
 
     mysqli_set_charset($db,"utf8");
