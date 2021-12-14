@@ -3,7 +3,7 @@ include 'db_conn.php';
 //librerias to pdf
 require_once 'dompdf/autoload.inc.php';
 
-// reference the Dompdf namespace
+// reference the Dompdf namespace 
 use Dompdf\Dompdf;
 use Dompdf\Options;
 
